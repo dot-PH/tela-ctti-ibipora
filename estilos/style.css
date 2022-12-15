@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap%27');
+
+* {
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-image: url(/imagens/login_wallpaper.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#tela-login {
+    font-size: 1em;
+    height: 100vh;
+    margin-top: 5px;
+    width: 60%;
+    margin-left: 40%;
+    position: absolute;
+}
+
+.tela-login #texto-entrada{
+    text-shadow: 3px 3px 1px 0 rgba(0,0,0,0.3);
+}
+
+#texto-entrada {
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+#texto-entrada h1 {
+    border: solid 2px #adadad;
+}
+
+.pergunta-usuario {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+#botao-cursos {
+    color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#botao-cursos button:hover,
+#botao-perfil button:hover,
+#botao-conta button:hover,
+#botao-desconectar button:hover {
+    display: inline-block;
+    background-color: #004a8f;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #d9d9d9;
+}
+
+#botao-perfil { 
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#botao-conta {
+    display: flex;
+    justify-content: center;
+}
+
+#botao-perfil button,
+#botao-conta button, 
+#botao-cursos button {
+    display: inline-block;
+    background-color: #004a8f;
+    transition: all 0.5s;
+    cursor: pointer;
+    color: #d9d9d9;
+    box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.3);
+    border: solid 2px #adadad;
+    border-radius: 15px;
+    font-size: 1.4em;
+    padding: 15px;
+    width: 30%;
+    background-color: #EFEFEF;
+    color: #0085FF;
+}
+
+#botao-desconectar button {
+    display: inline-block;
+    background-color: #efefef;
+    transition: all 0.5s;
+    cursor: pointer;        
+    color: #d9d9d9;             
+    box-shadow: 3px 3px 1px 0 rgba(0,0,0,0.3);
+    margin-top: 40px;
+    color: #0085FF;
+    padding: 10px;
+    font-size: 1.2em;
+    width: 150px;
+    border-radius: 15px;
+    border: solid 2px #adadad;
+}
+
+#botao-desconectar {
+    display: flex;
+    justify-content: center;
+}
+
+.logos {
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+}
+
+.imagens {
+    width: 70%;
+    height: 60%;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 40%;
+}
+
+.logo-ctti {
+    width: 80%;
+    height: 40%;
+}
+
+.logo-ctti img {
+    width: 100%;
+    display: block;
+}
+
+.logo-ibipora {
+    width: 80%;
+    height: 40%;
+}
+
+.logo-ibipora img {
+    width: 100%;
+    display: block;
+}

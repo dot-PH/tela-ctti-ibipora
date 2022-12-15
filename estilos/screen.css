@@ -1,0 +1,12 @@
+@media screen and (max-width: 800px) {
+    
+    body {
+        overflow: visible;
+    }
+
+    #botao-perfil button,
+    #botao-conta button,
+    #botao-cursos button {  
+        width: 40%;
+    }
+}
